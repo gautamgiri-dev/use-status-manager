@@ -1,0 +1,57 @@
+{
+  "name": "@gautamgiri/use-status-manager",
+  "description": "A lightweight and flexible custom React hook for managing subscriptions and status updates in your application. It helps you subscribe to a list of candidates, fetch their statuses, and keep them updated with polling and debounce functionality.",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "dist/use-status-manager.cjs.js",
+  "module": "dist/use-status-manager.es.js",
+  "types": "dist/use-status-manager.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@eslint/js": "^9.21.0",
+    "@types/react": "^19.0.10",
+    "@types/react-dom": "^19.0.4",
+    "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^9.21.0",
+    "eslint-plugin-react-hooks": "^5.1.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "globals": "^15.15.0",
+    "typescript": "~5.7.2",
+    "typescript-eslint": "^8.24.1",
+    "vite": "^6.2.0"
+  },
+  "keywords": [
+    "react",
+    "hook",
+    "subscription",
+    "status-manager",
+    "use-status-manager",
+    "custom-hook"
+  ],
+  "author": "Gautam Giri",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gautamgiri-dev/use-status-manager.git"
+  },
+  "homepage": "https://github.com/gautamgiri-dev/use-status-manager.git",
+  "bugs": {
+    "url": "https://github.com/gautamgiri-dev/use-status-manager.git/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "contributors": [
+    "Gautam Giri <gautam.giri@example.com>"
+  ]
+}
