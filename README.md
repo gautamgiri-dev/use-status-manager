@@ -14,9 +14,9 @@ A flexible and powerful React hook for managing the subscription and polling of 
 ## 📦 Installation
 
 ```bash
-npm install use-status-manager
+npm install @gautamgiri/use-status-manager
 # or
-yarn add use-status-manager
+yarn add @gautamgiri/use-status-manager
 ```
 
 ## 🚀 Usage
