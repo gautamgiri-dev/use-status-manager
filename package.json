@@ -1,7 +1,7 @@
 {
   "name": "@gautamgiri/use-status-manager",
   "description": "A lightweight and flexible custom React hook for managing subscriptions and status updates in your application. It helps you subscribe to a list of candidates, fetch their statuses, and keep them updated with polling and debounce functionality.",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "type": "module",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
