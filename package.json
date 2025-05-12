@@ -5,10 +5,10 @@
   "type": "module",
   "main": "dist/use-status-manager.cjs.js",
   "module": "dist/use-status-manager.es.js",
-  "types": "dist/use-status-manager.d.ts",
+  "types": "dist/index.d.ts",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "tsc --emitDeclarationOnly && vite build && tsc --project tsconfig.json",
     "lint": "eslint .",
     "preview": "vite preview"
   },

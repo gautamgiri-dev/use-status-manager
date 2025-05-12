@@ -9,6 +9,7 @@ export default defineConfig({
       entry: "./src/index.ts",
       name: "useStatusManager",
       fileName: (format) => `use-status-manager.${format}.js`,
+      formats: ["es", "umd", "cjs"],
     },
     rollupOptions: {
       external: ["react", "react-dom"],

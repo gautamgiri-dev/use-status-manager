@@ -22,7 +22,7 @@ yarn add @gautamgiri/use-status-manager
 ## 🚀 Usage
 
 ```tsx
-import { useStatusManager } from "use-status-manager";
+import { useStatusManager } from "@gautamgiri/use-status-manager";
 
 const { subscribe, unsubscribe, isLoading, isPending } = useStatusManager({
   statusFn: fetchStatuses, // (candidates) => Promise<TData>
